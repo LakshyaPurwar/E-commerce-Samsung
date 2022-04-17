@@ -1,0 +1,10 @@
+@font-face {
+    font-family: samsungSharpSans;
+    src: url(../../../resources/samsungSharpSans.otf);
+ }
+.heading{
+    width:100%;
+    text-align: center;
+    font-size: 2rem;
+    font-family: samsungSharpSans;
+}

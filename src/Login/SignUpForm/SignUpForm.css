@@ -1,0 +1,145 @@
+/* @font-face {
+    font-family: samsung_font;
+    src: url(../../resources/samsung_font.ttf);
+ }
+
+
+@font-face {
+    font-family: samsungSharpSans;
+    src: url(../../resources/samsungSharpSans.otf);
+ } */
+ @font-face {
+    font-family: samsungOneThin;
+    src: url(../../../resources/SamsungOne-400.ttf);
+ }
+
+
+
+
+.signupPage{
+    width:100vw;
+    height:150vh;
+    background-color:#171717;
+    position:absolute;
+    top:0;
+    z-index:+100;
+    background-color: black;
+    
+}
+.signupPage-body{
+    background-color:black;
+    width:100%;
+    height:120vh;
+    position:absolute;
+    top:13vh;
+    box-sizing: border-box;
+    padding:1rem 28rem;
+    
+
+}
+.signup-form-container{
+    margin-top: 3rem;;
+    position:relative;
+    background-color:#171717;
+    width:100%;
+    height:95%;
+    border-radius:40px;
+    box-sizing: border-box;
+    padding:3rem;
+    
+}
+
+.signup-form{
+    height:100%;
+    width:100%;
+    background-color: #171717;
+    box-sizing: border-box;
+}
+.signup-form-header{
+    position:relative;;
+    top:0;
+    height:20%;
+    background-color: #171717;
+    width:100%;
+}
+.signup-form-body{
+    position:relative;
+    height:60%;
+    background-color: #171717;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr) ;
+    gap: 2rem;
+    box-sizing: border-box;
+
+}
+.signup-form-footer{
+    position:relative;
+    background-color: #171717;
+    width:100%;
+    height:20%;
+}
+.signup-form-heading{
+    background-color: #171717;
+    color:rgb(194, 187, 187);
+    font-size:2rem;
+    padding:2px 3px;
+    font-family: samsungOneThin;
+    font-weight: 400;
+}
+.signup-grid-item{
+    height:100%;
+    width:100%;
+    box-sizing: border-box;
+
+    
+}
+.form-input{
+    height:100%;
+    width:95%;
+    padding:0 3rem;
+    background-color: #171717;
+    border-style: none;
+    border-bottom-style:solid;
+    color:whitesmoke;
+    font-family: samsungOneThin;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 3px 6px;
+    letter-spacing: 1px;
+    border-bottom: solid gray;
+}
+ ::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+.back-button-holder{
+    position:absolute;
+    width:50%;
+    height:40%;
+    bottom:0;
+    background-color: #171717;
+}
+.next-button-holder{
+    position:absolute;
+    width:50%;
+    height:40%;
+    bottom:0;
+    background-color: #171717;
+    right:0;
+
+}
+
+.signup-button{
+    position:absolute;
+    background-color: #2189FF;
+    width:20%;
+    padding: 0.8rem 4rem;
+    border-radius:40px;
+    color:white;
+    font-family: samsungOneThin;
+    font-weight: 700;
+    font-size:0.87rem;
+    margin: 0 1rem;
+    text-align:center;
+    height:1.5rem;
+    font-size: 1rem;
+}

@@ -1,0 +1,135 @@
+@font-face {
+    font-family: samsungSharpSans;
+    src: url(../../resources/samsungSharpSans.otf);
+ }
+ @font-face {
+    font-family: samsungOneThin;
+    src: url(../../resources/SamsungOne-400.ttf);
+ }
+
+.user{
+    position:absolute;
+    background-color: #F7F7F7;
+    top:13vh;
+    height:48vh;
+    width:100vw;
+    display:flex;
+
+    /* z-index:-1; */
+
+    
+    
+}
+.login{
+    position:absolute;
+    width: 50%;
+    left:0;
+    background-color: #F7F7F7;
+    height:100%;
+    padding:4vh;
+    box-sizing:border-box;
+    border-right-style:solid ;
+    border-right-width: 0.5px;
+    border-right-color:rgba(0,0,0,0.4);
+}
+.signUp{
+    position:absolute;
+    left:50%;
+    box-sizing: border-box;
+    width: 50%;
+    background-color: #F7F7F7;
+    height:100%;
+    padding: 2rem 2rem 2rem 2rem;
+
+}
+.login-form-container{
+    height:100%;
+    width:100%;
+    background-color: #F7F7F7;
+    display: grid;
+    grid-template-rows: repeat(4,10vh);
+    
+    /* box-sizing: border-box; */
+}
+.signUp-form-container{
+    height:100%;
+    width:100%;
+    background-color: #F7F7F7;
+    display:grid;
+    grid-template-rows:repeat(4,10vh);
+}
+.login-grid-item{
+    background-color: #F7F7F7;
+    text-align: center;
+}
+.login-grid-item-1{
+    background-color: #F7F7F7;
+    font-family:samsungSharpSans;
+    font-size:1.5rem;
+    
+}
+.login-grid-item-2{
+    background-color: #F7F7F7;
+    font-family: samsungOneThin;
+    font-size:0.87rem;
+
+}
+.login-grid-item-3{
+    background-color: #F7F7F7;
+    justify-self: center;
+}
+.login-grid-item-4{
+    background-color: #F7F7F7;
+    font-family: samsungOneThin;
+    font-size:0.87rem;
+}
+.login-button{
+    background-color: #2189FF;
+    width:max-content;
+    padding: 0.5rem 4rem;
+    border-radius:40px;
+    color:white;
+    font-family: samsungOneThin;
+    font-weight: 700;
+    font-size:0.87rem;
+}
+.signUp-grid-item{
+    text-align:center;
+}
+.signUp-grid-item-1{
+    font-family: samsungSharpSans;
+    font-size:1.5rem;
+}
+.signUp-grid-item-3{
+    grid-row: span 2;
+
+}
+.signUp-input{
+    width:40%;
+    height: 2rem;
+    align-items: center;
+    border-style: none;
+    border-bottom-style:solid ;
+    margin-top:1rem;
+    padding: 0 1rem ;
+    font-family: samsungOneThin;
+    font-weight: 700;
+}
+.signUp-button{
+    width:40%;
+    padding:0.5rem 0;
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-family: samsungOneThin;
+    font-weight: 700;
+    border-radius: 40px;
+    margin:2rem auto 0;
+
+}
+.link{
+    color:white;
+}
+.signup-link{
+    color:#2189FF;
+}

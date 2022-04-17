@@ -1,0 +1,23 @@
+@font-face {
+    font-family: samsungOne;
+    src: url(../../../resources/samsungOne.ttf);
+ }
+
+.subNav{
+    width:100vw;
+    padding:1rem 0;
+    background-color:white;
+    display:flex;
+    justify-content: center;
+    margin:2rem 0;
+    
+}
+
+ .subNav-list-item{
+     font-family: samsungOne;
+     margin:0 1rem;
+ }
+ .selected{
+     border-bottom-style:solid;
+
+ }

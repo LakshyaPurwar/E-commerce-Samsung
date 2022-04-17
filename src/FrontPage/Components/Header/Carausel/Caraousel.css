@@ -1,0 +1,57 @@
+.caraousel{
+    position:absolute;
+    top:13vh;
+    z-index:-1;
+    height:70vh;
+    width:100vw;
+    left:0;
+    background-color:rgb(255, 0, 242);
+    overflow: hidden;
+}
+/* .caraousel-list{
+    display:flex;
+    width:500vw;
+}
+*/
+.slide{
+    height:70vh;
+    width:100vw;
+}
+
+.slide1{
+    background-color:aqua;
+    background-image: url('../../../../../resources/caraouselImages/image1.jpg');
+}
+.slide2{
+    background-color: bisque;
+    background-image: url('../../../../../resources/caraouselImages/image2.jpg');
+}
+.slide3{
+    background-color:black;
+    background-image: url('../../../../../resources/caraouselImages/image3.jpg');
+}
+.slide4{
+    background-color: blueviolet;
+    background-image: url('../../../../../resources/caraouselImages/image4.webp');
+}
+/* .forward{
+    position:absolute;
+    z-index:0;
+    background-color:blanchedalmond;
+    left:0;
+    top:50%;
+}
+.backward{
+    position:absolute;
+    z-index:0;
+    background-color:blanchedalmond;
+    right:0;
+    top:50%;
+}  */
+
+    
+
+.mySwiper{
+    --swiper-theme-color: #1f2021;
+    width:100vw;
+}

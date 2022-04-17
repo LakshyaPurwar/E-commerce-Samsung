@@ -1,0 +1,40 @@
+.grid-container{
+    position:relative;
+    display:grid;
+    height:100%;
+    width:100%;
+    background-color:white;
+    grid-template-columns: 44vw repeat(2,18.75vw);
+    grid-template-rows:repeat(2,1fr);
+    grid-gap:2rem;
+    justify-content: center;
+    align-content: center;
+    box-sizing: border-box;
+    transition: transform 2s ease-in-out,opacity 0.01s;
+}
+.grid-item{
+    background-color: #F1F1F1;
+    border-radius:20px;
+    text-align: center;
+}
+.grid-item-1{
+    grid-row:span 2;
+}
+.slide-out{
+    transform:translateX(-120vw);
+    opacity:0;
+
+    /* animation-name: slide-out;
+    animation-duration: 3s; */
+}
+.slide-in{
+    transform:translate(0vw);
+    opacity:1;
+}
+/* @keyframes slide-out {
+    0% {background-color: aquamarine}
+    50% {background-color: blueviolet}
+    100%{background-color: blue}
+    
+} */
+

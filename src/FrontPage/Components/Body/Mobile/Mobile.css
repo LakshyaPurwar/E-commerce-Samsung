@@ -1,0 +1,11 @@
+.mobile {
+    background-color: white;
+    position: absolute;
+    z-index: 0;
+    top: 213vh;
+    height: 130vh;
+    width: 100vw;
+    padding: 2rem 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
